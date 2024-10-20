@@ -30,7 +30,7 @@ fun CoinListScreen(
             modifier = Modifier
                 .fillMaxSize(),
             contentAlignment = Alignment.Center
-        ) {2
+        ) {
             CircularProgressIndicator()
         }
     } else {
