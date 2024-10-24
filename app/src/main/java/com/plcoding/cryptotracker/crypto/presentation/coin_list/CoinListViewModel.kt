@@ -10,6 +10,7 @@ import com.plcoding.cryptotracker.crypto.presentation.models.toCoinUi
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
+import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.onStart
 import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.flow.stateIn
@@ -32,7 +33,7 @@ class CoinListViewModel(
             CoinListState()
         )
 
-    private val  _events = Channel<CoinListEvent>()
+    private val _events = Channel<CoinListEvent>()
     val events = _events.receiveAsFlow()
 
     fun onAction(action: CoinListAction) {

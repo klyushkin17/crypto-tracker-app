@@ -2,6 +2,8 @@ package com.plcoding.cryptotracker.crypto.domain
 
 import com.plcoding.cryptotracker.core.domain.util.NetworkError
 import com.plcoding.cryptotracker.core.domain.util.Result
+import com.plcoding.cryptotracker.crypto.domain.model.Coin
+import com.plcoding.cryptotracker.crypto.domain.model.CoinPrice
 import java.time.ZonedDateTime
 
 interface CoinDataSource {
