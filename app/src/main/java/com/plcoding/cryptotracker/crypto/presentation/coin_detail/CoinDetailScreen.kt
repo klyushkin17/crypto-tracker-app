@@ -111,12 +111,6 @@ fun CoinDetailScreen(
                     formattedText = "$ ${coin.priceUsd.formatted}",
                     icon = ImageVector.vectorResource(R.drawable.dollar)
                 )
-
-                InfoCard(
-                    title = stringResource(id = R.string.market_cap),
-                    formattedText = "$ ${coin.marketCapUsd.formatted}",
-                    icon = ImageVector.vectorResource(id = coin.iconRes)
-                )
                 val absoluteChangeFormatted =
                     (coin.priceUsd.value * coin.changePercent24Hr.value / 100)
                         .toDisplayableNumber()

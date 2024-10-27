@@ -150,7 +150,7 @@ fun LineChart(
         xLabelWidth = maxXLabelWidth + xAxisLabelSpacingPx
         xLabelTextLayoutResults.forEachIndexed { index, result ->
             val x = viewPortLeftX + xAxisLabelSpacingPx / 2f +
-                    xLabelWidth + index
+                    xLabelWidth * index
             drawText(
                 textLayoutResult = result,
                 topLeft = Offset(
