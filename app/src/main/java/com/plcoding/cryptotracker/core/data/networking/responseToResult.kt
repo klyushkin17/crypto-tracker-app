@@ -1,6 +1,5 @@
 package com.plcoding.cryptotracker.core.data.networking
 
-import android.net.Network
 import com.plcoding.cryptotracker.core.domain.util.NetworkError
 import com.plcoding.cryptotracker.core.domain.util.Result
 import io.ktor.client.call.NoTransformationFoundException

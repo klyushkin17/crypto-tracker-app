@@ -1,7 +1,6 @@
 package com.plcoding.cryptotracker.crypto.data.networking.dto
 
 import kotlinx.serialization.Serializable
-import kotlinx.serialization.Serializer
 
 @Serializable
 data class CoinDto(

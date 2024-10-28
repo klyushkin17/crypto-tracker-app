@@ -68,9 +68,9 @@ fun InfoCard(
                 Alignment.CenterHorizontally
             ),
             label = "IconAnimation"
-        ) {label ->
+        ) {icon ->
             Icon(
-                imageVector = label,
+                imageVector = icon,
                 contentDescription = title,
                 modifier = Modifier
                     .size(75.dp)

@@ -1,7 +1,6 @@
 package com.plcoding.cryptotracker.core.presentation.util
 
 import android.content.Context
-import android.net.Network
 import com.plcoding.cryptotracker.R
 import com.plcoding.cryptotracker.core.domain.util.NetworkError
 
